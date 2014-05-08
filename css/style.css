@@ -1,8 +1,9 @@
 td {
 /*   background-color: gray; */
   border:none;
-  padding: 3px;
+  padding: 5px;
 }
+
 
 table, tr, th {
   border-collapse: collapse;
@@ -10,7 +11,6 @@ table, tr, th {
 
 table {
   box-shadow: 1px 1px 5px gray;
-  padding: 20px;
 }
 
 tr:nth-child(even) {
