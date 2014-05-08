@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body ng-app="Test">
+        <div ng-controller="HomeController">
+            <table>
+                <tr ng-repeat="product in products">
+                    <td>{{product.name}}</td>
+                    <td>{{product.desc}}</td>
+                    <td>
+                        <select ng-model="product.color" ng-options="color for color in colors"></select>
+                    </td>
+                </tr>
+            </table>
+
+            <button ng-click="show()">Show</button>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+td {
+/*   background-color: gray; */
+  border:none;
+  padding: 3px;
+}
+
+table, tr, th {
+  border-collapse: collapse;
+}
+
+table {
+  box-shadow: 1px 1px 5px gray;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+button {
+  border: none;
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  color: black;
+  background-color: lightgray;
+}
